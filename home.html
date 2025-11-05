@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Portfolio</title>
+  <link rel="stylesheet" href="BL.css">
+  <script src="BL.js" defer></script>
+</head>
+<body>
+  
+  <button id="sidebar-toggle" class="sidebar-hamburger">&#9776;</button>
+
+
+  <aside id="sidebar" class="sidebar">
+  <button id="sidebar-close" class="sidebar-close">&times;</button>
+  <nav class="sidebar-nav">
+    
+    <div class="sidebar-dropdown">
+      <button class="sidebar-dropbtn">Results</button>
+      <div class="sidebar-dropdown-content">
+        <a href="year1.html">Year 1</a>
+        <a href="year2.html">Year 2</a>
+        <a href="year3.html">Year 3</a>
+        <a href="year4.html">Year 4</a>
+      </div>
+    </div>
+    <a href="profile.html">Profile</a>
+    <a href="page1.html">Career Goal</a>
+    <a href="page2.html">SnapShots</a>
+    <a href="index.html">Logout</a>
+  </nav>
+</aside>
+ 
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+
+  <header>
+    <h1 id="welcome-message">Welcome</h1>
+  </header>
+  
+
+  <main>
+   
+    <div class="slideshow-container">
+      <div class="slides fade"><img src="download (10).jpeg" alt="Slide 1"></div>
+      <div class="slides fade"><img src="download (11).jpeg" alt="Slide 2"></div>
+      <div class="slides fade"><img src="download (12).jpeg" alt="Slide 3"></div>
+      <div class="slides fade"><img src="download (13).jpeg" alt="Slide 4"></div>
+      <div class="slides fade"><img src="BACK IN TIME_.jpeg" alt="Slide 5"></div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
+    </div>
+
+
+    
+<div class="profile-video-row">
+  <section class="profile-section">
+    <div class="profile-header">
+      <img src="IMG_1992.JPG" alt="Profile Picture" class="profile-pic">
+      <h1 class="profile-name">Mirriam Monde</h1>
+    </div>
+    <p>
+      Hello I’m an IT enthusiast who loves turning ideas into interactive websites and multimedia experiences. When I’m not coding or designing, I enjoy exploring tech trends, working on personal projects, and sharing creative solutions with others. My goal is to use technology to make everyday life more engaging and efficient.
+    </p>
+  </section>
+  <section class="video-section">
+    <h2>How to Use This Website</h2>
+    <video controls width="100%">
+      <source src="4567890.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+</div>
+
+    <p id="datetime"></p>
+
+
+<button id="theme-toggle" class="theme-toggle" title="Toggle light/dark mode">🌙</button>
+  </main>
+</body>
+</html>
